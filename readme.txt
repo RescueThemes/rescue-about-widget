@@ -1,6 +1,7 @@
-=== Plugin Name ===
+=== Plugin Details ===
+Plugin Name: Rescue About Social Widget
 Contributors: rescuethemes
-Donate link: http://themeforest.net/user/RescueThemes?ref=rescuethemes
+Donate link: http://rescuethemes.com
 Tags: plugin, widget, sidebar, bio, about, social, image
 Requires at least: 3.0
 Tested up to: 3.9
