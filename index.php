@@ -1,10 +1,10 @@
 <?php
 /* 
- Plugin Name: Rescue About Widget
+ Plugin Name: Rescue About Social Widget
  Plugin URI: https://github.com/RescueThemes/rescue-about-widget
  Description: Adds a widget that will display bio info, an image, and social media icons for themes developed by <a href="http://themeforest.net/user/RescueThemes?ref=RescueThemes">Rescue Themes</a>
  Author: Rescue Themes
- Version: 1.0
+ Version: 1.1
  Author URI: http://themeforest.net/user/RescueThemes?ref=RescueThemes
 */
 
@@ -49,7 +49,7 @@ class rescue_about_plugin extends WP_Widget {
 
 		<p>
 		<label for="<?php echo $this->get_field_id('textarea'); ?>"><?php _e('Textarea:', 'rescue'); ?></label>
-		<textarea class="widefat" id="<?php echo $this->get_field_id('textarea'); ?>" name="<?php echo $this->get_field_name('textarea'); ?>"><?php echo $textarea; ?></textarea>
+		<textarea class="widefat" style="min-height: 150px;" id="<?php echo $this->get_field_id('textarea'); ?>" name="<?php echo $this->get_field_name('textarea'); ?>"><?php echo $textarea; ?></textarea>
 		</p>
 
 	    <p>
@@ -148,7 +148,8 @@ class rescue_about_plugin extends WP_Widget {
 		   }
 		   // Check if textarea is set
 		   if( $textarea ) {
-		     echo $textarea;
+		     // echo $textarea;
+		   	echo '<span class="rescue_text">'.$textarea.'</span><!-- .rescue_text -->';
 		   }
 		   
 		// Social Media Group

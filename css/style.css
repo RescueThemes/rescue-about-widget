@@ -1,7 +1,7 @@
 /*** Default Styles ***/
 .rescue_about_wrap ul {
 	list-style: none;
-	margin: 0 0;
+	margin: 2em 0 0!important;
 	text-align: center;
 }
 .rescue_about_wrap ul li {
