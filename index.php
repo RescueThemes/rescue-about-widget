@@ -222,7 +222,8 @@ if( !function_exists ('rescue_about_styles') ) :
 	function rescue_about_styles() {
 
 		wp_enqueue_style('rescue_about_style', plugin_dir_url( __FILE__ ) . 'css/style.css');
-		wp_enqueue_style( 'font_awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+		wp_enqueue_style( 'font_awesome', plugin_dir_url( __FILE__ ) . 'css/font-awesome.min.css', array(), '4.1.0', 'all' );
+
 
 	}
 	add_action('wp_enqueue_scripts', 'rescue_about_styles');
