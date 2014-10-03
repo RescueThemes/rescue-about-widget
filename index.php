@@ -4,7 +4,7 @@
  Plugin URI: https://github.com/RescueThemes/rescue-about-widget
  Description: Adds a widget that will display bio info, an image, and social media icons for themes developed by <a href="http://themeforest.net/user/RescueThemes?ref=RescueThemes">Rescue Themes</a>
  Author: Rescue Themes
- Version: 1.1
+ Version: 1.2
  Author URI: http://themeforest.net/user/RescueThemes?ref=RescueThemes
 */
 

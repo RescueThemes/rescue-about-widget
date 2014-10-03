@@ -40,7 +40,7 @@ http://rescuethemes.com/themes-plugins
 == Changelog ==
 
 = 1.2 =
-* Updated to Font Awesome v4.1
+*Updated to Font Awesome 4.2.0
 
 = 1.1 =
 * Added margin space to top of social icons
