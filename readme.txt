@@ -4,8 +4,8 @@ Contributors: rescuethemes
 Donate link: http://rescuethemes.com
 Tags: plugin, widget, sidebar, bio, about, social, image
 Requires at least: 3.0
-Tested up to: 3.9
-Stable tag: 1.2
+Tested up to: 6.4
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,8 @@ http://rescuethemes.com/themes-plugins
 
 == Changelog ==
 
+= 1.3 =
+* Support for PHP 8
 = 1.2 =
 * Updated to Font Awesome 4.2.0
 
